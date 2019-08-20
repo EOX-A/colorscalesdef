@@ -118,48 +118,5 @@ export let colorscales = {
     'electric': {
         colors: ['#000000','#1e0064','#780064','#a05a00','#e6c800','#fffadc'],
         positions: [0,0.15,0.4,0.6,0.8,1]
-    },
-};
-
-
-// Some helper conversion tools
-
-var rgbToHex = function (rgb) { 
-    var hex = Number(rgb).toString(16);
-    if (hex.length < 2) {
-        hex = '0' + hex;
     }
-    return hex;
 };
-
-var fullColorHex = function(r,g,b) {   
-    var red = rgbToHex(r);
-    var green = rgbToHex(g);
-    var blue = rgbToHex(b);
-    return red+green+blue;
-};
-
-/*var step = 10;
-var currdata = 'somedata';
-var stepsize = 100/currdata.length*step;
-var newcols = [];
-var newpos = [];
-var currpos = 0;
-for (var i = 0; i < currdata.length; i++) {
-    if(i%step === 0 || i==currdata.length-1){
-        var hexcol = fullColorHex(
-            Math.floor(currdata[i][0]*255),
-            Math.floor(currdata[i][1]*255),
-            Math.floor(currdata[i][2]*255)
-        );
-        newcols.push("'#"+hexcol+"'");
-        newpos.push(Number((currpos/100).toFixed(4)));
-        currpos+=stepsize;
-    }
-}
-
-var colsOut = document.getElementById('cols');
-colsOut.innerHTML = newcols;
-
-var posOut = document.getElementById('pos');
-posOut.innerHTML = newpos;*/
