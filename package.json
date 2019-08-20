@@ -1,0 +1,22 @@
+{
+  "name": "colorscalesdef",
+  "version": "0.0.1",
+  "description": "Small reference module for colorscale definitions",
+  "main": "colorscalesdef.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EOX-A/colorscalesdef.git"
+  },
+  "keywords": [
+    "colorscale"
+  ],
+  "author": "Daniel Santillan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EOX-A/colorscalesdef/issues"
+  },
+  "homepage": "https://github.com/EOX-A/colorscalesdef#readme"
+}
